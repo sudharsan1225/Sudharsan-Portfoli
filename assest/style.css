@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+  .top-div {
+    height: 100dvh;
+    display:flex;
+    align-items:center;
+    background-image: url(images/weathered-wall-with-weather-marks_1187-1685.avif);
+ 
+  
+  }
+  .container-main {
+    display: flex;
+    
+  }
+ 
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+  }
+  .container{
+      max-width: 1200px;
+      display: flex;
+    width:90%;
+    margin:0 auto;
+      padding: 90px;
+      align-items:center;
+      background:white;
+    box-shadow:1px 1px 5px 2px rgba(0,0,0,0.1) ;
+    border-radius:15px;
+    /* position: absolute; */
+    
+  }
+  .container > div{
+      flex: 0 1 50%;
+  }
+  img{
+      width: 100%;
+    border-radius:10px;
+  }
+  .aside {
+    width: 300px;
+    height: 100dvh;
+    position: sticky;
+    top: 0;
+    background: rgb(245, 179, 47);
+    padding:10px;
+  }
+  .links{
+    margin-top: 100px;
+  }
+  .links a{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+    
+  }
+  .main-div {
+    width: 100%;
+  }
+  .main{
+    height:100dvh;
+  }
+  .s1 {
+    padding-left: 75px;
+  }
+  #down{
+    padding-top: 50px;
+    padding-right: 1px;
+  }
+  .s2 {
+  
+  }
+  .s3 {
+      
+  }
+  .s4{
+    
+  }
+  .highligt{
+    color:rgb(255, 186, 49);
+  }  
+  .heading{
+    font-size: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+     border: 2px dotted black;
+     margin-top: 10px;
+    
+  }
+  span{
+    color:#f5b32f;
+
+  }
+  .para{
+    margin-right: 1px;
+  }
+  li{
+    line-height: 400%;
+  }
+  .btn {
+    background-color: #F9C107;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top:50px ;
+}
+.make{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+.work{
+  position: fixed;
+  right: 75px;
+  background-color:#f9c107;
+  color: black;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.435);
+  margin: 20px;
+}
+.temp{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+.temp:hover{
+  background-color: black;
+  color:white;
+  border-radius: 50%;
+  padding: 5px;
+  transition: 0.5s;
+}
+.skil{
+  font-size: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+     border: 2px dotted black;
+     margin-top: 10px;
+}
+.prot{
+  font-size: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+     border: 2px dotted black;
+     margin-top: 10px;
+}
+.cont{
+  font-size: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+     border: 2px dotted black;
+     margin-top: 10px;
+}
+#skill-html{
+  font-size: 150px;
+  margin: 50px;
+}
+#skill-css{
+  font-size:150px;
+  margin: 50px;
+ 
+}
+#skill-js{
+  font-size:150px;
+  margin: 50px;
+  
+}
